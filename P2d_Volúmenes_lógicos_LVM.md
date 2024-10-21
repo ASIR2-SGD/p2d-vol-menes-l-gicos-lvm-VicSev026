@@ -16,14 +16,21 @@ En esta práctica se trabajará sobre la creación y gestión de volúmenes lóg
 ## Definición y Arquitectura de LVM
 >[!NOTE]
 > Explicar ayudándote de una imagen la arquitectura de LVM
+![Alt text](linux-lvm-specifics.jpg)
+
 
 ## Desarrollo
+- Es un administrador de volúmenes lógicos el cual permite crear estos volúmenes a partir de varios dispositivos físicos y cambiar fácilmente su tamaño.
 ## Introducción
 >[!NOTE]
 > Explicar brevemente en que va a consistir la práctica, ayúdate de una imágen para tu explicación.
 ### Paso 1. Pasos previos
 >[!NOTE]
 > Explicar la ampliacion de la máquina virtual con nuevos discos duros
+>
+- Creo las particiones en el volumene físico con:
+```sudo pvcreate /dev/sde /dev/sdf  ```
+
 ### Paso 2. Creación de los volúmenes lógicos
 
 
